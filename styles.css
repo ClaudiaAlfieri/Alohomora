@@ -1,0 +1,102 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .inicioH .sobreH .contatoH {
+    width:auto; 
+  }
+}
+
+@media (max-width: 480px) {
+    .inicioH .sobreH .contatoH{
+    width:auto; 
+  }
+ }
+
+/* Body */
+
+header{
+    width:auto;
+    margin:0;
+    padding:0;        
+}
+
+#body{
+  background-color:#00142D;
+  width:100%;
+}
+
+.bodyi{
+  width:100%;
+}
+
+.bodysite{
+  width:100%;
+}
+
+/* Página - Sobre */
+.sobreH{
+  text-align:justify;
+  font-family:"Lobster";
+  color:white;
+  }
+
+.sobre{
+    font-size:20px;
+    text-align:justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+  }
+
+  #texto{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+  /* Página Contato */
+  .contatoH{
+    text-align:justify;
+    font-family:"Lobster";
+    color:white;
+    margin-left:20px;
+    }
+
+  #redes{
+    margin-left:30px;
+  }
+
+  /* Inicio */
+.inicioH{
+  text-align:center;
+  font-family:"Lobster";
+  color:white;
+  }
+
+.inicioText{
+    text-align:center;
+    font-family:"Lobster";
+    color:white;
+    }
+
+.livros{
+justify-content: center;
+}
+
+.containerInicio{
+  justify-content: center;
+  align-items:center;
+  margin:0 auto;
+}
+
+.inicioR {
+  justify-content: center;
+}
+
+.inicioR .livro-harry {
+  width: 500px;
+}
+
+
