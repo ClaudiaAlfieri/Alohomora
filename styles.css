@@ -4,17 +4,44 @@
 
 /* Responsividade */
 
-@media (max-width: 768px) {
+/* Tamanho ajustado para telas pequenas */
+@media (max-width: 767px) {
     .inicioH .sobreH .contatoH {
     width:auto; 
   }
+  h1.sobreH {
+    font-size: 1.5rem; 
+  }
+  p.sobre {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 480px) {
-    .inicioH .sobreH .contatoH{
-    width:auto; 
-  }
- }
+/* Tamanho ajustado para telas medias */
+@media (min-width: 768px) and (max-width: 991px) {
+  .inicioH .sobreH .contatoH {
+  width:auto; 
+}
+h1.sobreH {
+  font-size: 1.5rem; 
+}
+p.sobre {
+  font-size: 1rem;
+}
+}
+
+/* Tamanho ajustado para telas grandes */
+@media (min-width: 992px) {
+  .inicioH .sobreH .contatoH {
+  width:auto; 
+}
+h1.sobreH {
+  font-size: 2.5rem;
+}
+p.sobre {
+  font-size: 1.5rem;
+}
+}
 
 /* Body */
 
@@ -29,7 +56,7 @@ header{
   width:100%;
 }
 
-.bodyi{
+.bodyI{
   width:100%;
 }
 
@@ -51,17 +78,11 @@ header{
     color:white;
   }
 
-  #texto{
-    margin-left:30px;
-    margin-right:30px;
-  }
-
   /* Página Contato */
   .contatoH{
     text-align:justify;
     font-family:"Lobster";
     color:white;
-    margin-left:20px;
     }
 
   #redes{
